@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://counter-insights-website.netlify.app if your live address is different. See the README. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://counter-insights-website.netlify.app/</loc>
+  </url>
+  <url>
+    <loc>https://counter-insights-website.netlify.app/services.html</loc>
+  </url>
+  <url>
+    <loc>https://counter-insights-website.netlify.app/apicbase.html</loc>
+  </url>
+  <url>
+    <loc>https://counter-insights-website.netlify.app/about.html</loc>
+  </url>
+  <url>
+    <loc>https://counter-insights-website.netlify.app/margin-check.html</loc>
+  </url>
+  <url>
+    <loc>https://counter-insights-website.netlify.app/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://counter-insights-website.netlify.app/privacy.html</loc>
+  </url>
+</urlset>

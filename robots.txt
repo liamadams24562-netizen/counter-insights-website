@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+
+# Replace the address below if Netlify gives you a different one, or when you connect a domain.
+Sitemap: https://counter-insights-website.netlify.app/sitemap.xml

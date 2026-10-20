@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Counter Insights</title>
+  <meta name="description" content="Call 07554 948945, email liamadams24562@gmail.com, or send a message. Free chat and a tailored quote. No price list.">
+  <meta name="author" content="Liam Adams">
+  <meta name="theme-color" content="#26307a">
+  <link rel="canonical" href="https://counter-insights-website.netlify.app/contact.html">
+  <meta property="og:title" content="Contact | Counter Insights">
+  <meta property="og:description" content="Phone, email or a short form. Ask for the free margin check-up or a tailored quote.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:site_name" content="Counter Insights">
+  <meta property="og:url" content="https://counter-insights-website.netlify.app/contact.html">
+  <meta property="og:image" content="https://counter-insights-website.netlify.app/assets/og-image.png">
+  <meta property="og:image:alt" content="Counter Insights. Protect your margins behind the counter.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="index.html">
+        <img src="assets/favicon.svg" alt="" width="36" height="36">
+        <span>
+          <span class="wordmark-name">Counter Insights</span>
+          <span class="wordmark-tag">Data consulting · Wembley</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="apicbase.html">Apicbase</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a class="nav-cta" href="margin-check.html">Free margin check-up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Tell me about the business.</h1>
+        <p class="lede">A free, no-obligation chat, and a quote tailored to the work. There is no price list. I am based in Wembley and visit businesses across North West London. I also work remotely anywhere in the UK.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div>
+          <h2>Phone and email</h2>
+          <ul class="contact-list">
+            <li>
+              <span>Phone</span>
+              <a href="tel:+447554948945">07554 948945</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <a href="mailto:liamadams24562@gmail.com">liamadams24562@gmail.com</a>
+            </li>
+          </ul>
+          <p>If you would rather not use the form, call or email. Mention the free margin check-up if you want that first conversation.</p>
+          <p><a href="assets/counter-insights-brochure.pdf" download>Download the brochure</a> · <a href="privacy.html">Privacy notice</a></p>
+        </div>
+
+        <form
+          class="form"
+          id="contact-form"
+          name="contact"
+          method="POST"
+          action="/thank-you.html"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact">
+          <p hidden>
+            <label>Don’t fill this out if you’re human: <input name="bot-field" autocomplete="off" tabindex="-1"></label>
+          </p>
+          <p class="form-note">Fields marked with <span class="req" aria-hidden="true">*</span> are required.</p>
+
+          <div class="field">
+            <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="business-name">Business name <span class="req" aria-hidden="true">*</span></label>
+            <input id="business-name" name="business-name" type="text" autocomplete="organization" required>
+          </div>
+
+          <div class="field">
+            <label for="business-type">Business type <span class="req" aria-hidden="true">*</span></label>
+            <select id="business-type" name="business-type" required>
+              <option value="">Please choose</option>
+              <option>Restaurant</option>
+              <option>Café</option>
+              <option>Petrol station or forecourt</option>
+              <option>Shop</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone <span class="form-note">(optional)</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+          </div>
+
+          <div class="field">
+            <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <div class="check">
+            <input id="free-margin-check-up" name="free-margin-check-up" type="checkbox" value="Yes">
+            <label for="free-margin-check-up">I'd like the free margin check-up</label>
+          </div>
+
+          <button class="button button-primary" type="submit">Send message</button>
+          <p class="form-note">I use what you send only to reply. Please don’t include card numbers. <a href="privacy.html">Read the privacy notice</a>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Counter Insights</p>
+        <p>Liam Adams · Data consultant · Wembley, North West London</p>
+      </div>
+      <div>
+        <ul class="contact-list">
+          <li>
+            <span>Phone</span>
+            <a href="tel:+447554948945">07554 948945</a>
+          </li>
+          <li>
+            <span>Email</span>
+            <a href="mailto:liamadams24562@gmail.com">liamadams24562@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-nav">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="apicbase.html">Apicbase support</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="margin-check.html">Free margin check-up</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy notice</a></li>
+          <li><a href="assets/counter-insights-brochure.pdf" download>Download the brochure</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <p class="legal">© 2026 Counter Insights. Liam Adams, sole trader, Wembley.</p>
+    </div>
+  </footer>
+  <script src="js/nav.js"></script>
+</body>
+</html>
