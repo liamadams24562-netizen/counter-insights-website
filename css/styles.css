@@ -52,12 +52,12 @@
   --ink: #1b2040;
   --body: #2c3350;
   --muted: #3e4662;
-  --red: #be4630;
-  --red-dark: #9c3428;
+  --green: #1e6b47;
+  --green-dark: #145233;
   --line: #e2e5f0;
   --mist: #f5f6fa;
-  --red-soft: #f6e4dc;
-  --red-on-navy: #f6d5c8;
+  --green-soft: #e5f2ea;
+  --green-on-navy: #d4ebd9;
   --white: #ffffff;
   --shadow: 0 18px 40px rgba(38, 48, 122, 0.08);
   --radius: 12px;
@@ -144,7 +144,7 @@ h4 {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--green);
   margin-bottom: 0.45rem;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 a:hover {
-  color: var(--red-dark);
+  color: var(--green-dark);
 }
 
 :focus-visible {
@@ -208,7 +208,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--green);
 }
 
 .lede {
@@ -322,12 +322,12 @@ html.js .nav-toggle {
 }
 
 .site-nav a:hover {
-  color: var(--red-dark);
+  color: var(--green-dark);
 }
 
 .site-nav a[aria-current="page"] {
-  color: var(--red);
-  box-shadow: inset 0 -2px 0 var(--red);
+  color: var(--green);
+  box-shadow: inset 0 -2px 0 var(--green);
 }
 
 .site-nav a.nav-cta {
@@ -335,13 +335,13 @@ html.js .nav-toggle {
   margin-top: 0.35rem;
   padding: 0.55rem 0.9rem;
   border-radius: 8px;
-  background: var(--red);
+  background: var(--green);
   color: var(--white);
   box-shadow: none;
 }
 
 .site-nav a.nav-cta:hover {
-  background: var(--red-dark);
+  background: var(--green-dark);
   color: var(--white);
 }
 
@@ -459,12 +459,12 @@ html.js .site-nav.is-open {
 }
 
 .button-primary {
-  background: var(--red);
+  background: var(--green);
   color: var(--white);
 }
 
 .button-primary:hover {
-  background: var(--red-dark);
+  background: var(--green-dark);
   color: var(--white);
 }
 
@@ -485,7 +485,7 @@ html.js .site-nav.is-open {
 }
 
 .button-on-navy:hover {
-  background: var(--red-soft);
+  background: var(--green-soft);
   color: var(--navy);
 }
 
@@ -497,7 +497,7 @@ html.js .site-nav.is-open {
   background: var(--mist);
   border-radius: var(--radius);
   padding: 1.5rem;
-  border-top: 4px solid var(--red);
+  border-top: 4px solid var(--green);
 }
 
 .hero-panel h2 {
@@ -529,7 +529,7 @@ html.js .site-nav.is-open {
 }
 
 .eyebrow-light {
-  color: var(--red-on-navy);
+  color: var(--green-on-navy);
 }
 
 .band :focus-visible,
@@ -571,7 +571,7 @@ html.js .site-nav.is-open {
 }
 
 .card-accent {
-  border-top: 4px solid var(--red);
+  border-top: 4px solid var(--green);
 }
 
 .card h3 a {
@@ -580,7 +580,7 @@ html.js .site-nav.is-open {
 }
 
 .card h3 a:hover {
-  color: var(--red-dark);
+  color: var(--green-dark);
 }
 
 .ticks,
@@ -606,11 +606,11 @@ html.js .site-nav.is-open {
   width: 0.45rem;
   height: 0.45rem;
   border-radius: 2px;
-  background: var(--red);
+  background: var(--green);
 }
 
 .band .ticks li::before {
-  background: var(--red-on-navy);
+  background: var(--green-on-navy);
 }
 
 .more {
@@ -642,7 +642,7 @@ html.js .site-nav.is-open {
   font-size: 1.8rem;
   font-weight: 800;
   letter-spacing: -0.04em;
-  color: var(--red);
+  color: var(--green);
   line-height: 1;
 }
 
@@ -658,7 +658,7 @@ html.js .site-nav.is-open {
 
 .package-featured {
   border: 2px solid var(--navy);
-  background: linear-gradient(180deg, var(--red-soft) 0, var(--white) 5.5rem);
+  background: linear-gradient(180deg, var(--green-soft) 0, var(--white) 5.5rem);
 }
 
 .package-kicker {
@@ -667,7 +667,7 @@ html.js .site-nav.is-open {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--green);
 }
 
 .package p {
@@ -682,7 +682,7 @@ html.js .site-nav.is-open {
 .price-note {
   margin: 1.5rem 0 0;
   padding: 1rem 1.15rem;
-  background: var(--red-soft);
+  background: var(--green-soft);
   border-radius: var(--radius);
   color: var(--ink);
   font-weight: 600;
@@ -731,7 +731,7 @@ html.js .site-nav.is-open {
 .quote {
   margin: 1.5rem 0;
   padding: 0.2rem 0 0.2rem 1rem;
-  border-left: 4px solid var(--red);
+  border-left: 4px solid var(--green);
   font-size: 1.25rem;
   font-weight: 500;
   color: var(--navy);
@@ -754,7 +754,7 @@ html.js .site-nav.is-open {
 }
 
 .site-footer .contact-list span {
-  color: var(--red-on-navy);
+  color: var(--green-on-navy);
 }
 
 .split-text > * + * {
@@ -806,7 +806,7 @@ html.js .site-nav.is-open {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--green);
 }
 
 .form {
@@ -830,7 +830,7 @@ html.js .site-nav.is-open {
 }
 
 .req {
-  color: var(--red);
+  color: var(--green);
 }
 
 input,
@@ -865,7 +865,7 @@ textarea:focus-visible {
 input:user-invalid,
 select:user-invalid,
 textarea:user-invalid {
-  border-color: var(--red);
+  border-color: var(--green);
 }
 
 .check {
@@ -878,7 +878,7 @@ textarea:user-invalid {
   width: 1.25rem;
   height: 1.25rem;
   margin-top: 0.2rem;
-  accent-color: var(--red);
+  accent-color: var(--green);
 }
 
 .form .button {
@@ -921,7 +921,7 @@ textarea:user-invalid {
 }
 
 .site-footer a:hover {
-  color: var(--red-on-navy);
+  color: var(--green-on-navy);
 }
 
 .footer-nav {
