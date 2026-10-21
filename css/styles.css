@@ -55,6 +55,7 @@
   --green: #1e6b47;
   --green-dark: #145233;
   --line: #e2e5f0;
+  --page: #f2f3f5;
   --mist: #f5f6fa;
   --green-soft: #e5f2ea;
   --green-on-navy: #d4ebd9;
@@ -93,7 +94,7 @@ body {
   font-size: 1.0625rem;
   line-height: 1.6;
   color: var(--body);
-  background: var(--white);
+  background: var(--page);
 }
 
 img {
@@ -233,9 +234,13 @@ a:hover {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 40;
+  z-index: 100;
   background: var(--white);
   border-bottom: 1px solid var(--line);
+}
+
+.site-header.is-scrolled {
+  box-shadow: 0 8px 20px rgba(27, 32, 64, 0.08);
 }
 
 .header-inner {
@@ -494,7 +499,8 @@ html.js .site-nav.is-open {
 }
 
 .hero-panel {
-  background: var(--mist);
+  background: var(--white);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1.5rem;
   border-top: 4px solid var(--green);
@@ -622,7 +628,8 @@ html.js .site-nav.is-open {
 .note {
   margin-top: 1rem;
   padding: 1.1rem 1.2rem;
-  background: var(--mist);
+  background: var(--white);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
 }
 
@@ -632,7 +639,8 @@ html.js .site-nav.is-open {
 
 .step {
   padding: 1.25rem;
-  background: var(--mist);
+  background: var(--white);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
 }
 
@@ -956,7 +964,7 @@ textarea:user-invalid {
 }
 
 [id] {
-  scroll-margin-top: 5.5rem;
+  scroll-margin-top: calc(var(--header) + 0.85rem);
 }
 
 @media (min-width: 720px) {
