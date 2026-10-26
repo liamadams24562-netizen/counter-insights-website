@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="badgeTitle">
+  <title id="badgeTitle">Counter Insights</title>
+  <rect width="64" height="64" rx="14" fill="#26307A"/>
+  <g transform="translate(3.95 52.94) scale(0.05735 -0.05735)">
+      <path fill="#FFFFFF" d="M568 634 478 529Q451 553 422.0 565.5Q393 578 358 578Q293 578 256.0 521.0Q219 464 219 349Q219 235 256.5 178.5Q294 122 362 122Q397 122 426.5 136.5Q456 151 494 180L576 75Q535 34 477.5 8.0Q420 -18 352 -18Q253 -18 180.0 24.5Q107 67 67.0 149.5Q27 232 27 349Q27 463 68.0 545.0Q109 627 181.0 670.0Q253 713 347 713Q415 713 468.0 693.0Q521 673 568 634Z"/>
+      <path fill="#FFFFFF" transform="translate(665.17 0)" d="M52 0H230V533H52Z"/>
+      <path fill="#1E6B47" transform="translate(665.17 0)" d="M141 748L286 612L190 612L190 548L92 548L92 612L-4 612Z"/>
+    </g>
+</svg>

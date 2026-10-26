@@ -1,4 +1,13 @@
 (function () {
+  var header = document.querySelector(".site-header");
+  if (header) {
+    function markScrolled() {
+      header.classList.toggle("is-scrolled", window.scrollY > 4);
+    }
+    markScrolled();
+    window.addEventListener("scroll", markScrolled, { passive: true });
+  }
+
   var button = document.querySelector(".nav-toggle");
   var nav = document.querySelector("#site-nav");
 
